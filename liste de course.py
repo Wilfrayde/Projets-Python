@@ -32,7 +32,7 @@ while choix_user != 5:
 
         # Afficher la liste de course
         if choix_user == 3:
-            print(f"Ma liste de course contient : ")
+            print("Ma liste de course contient : ")
             for elmt in liste_course:
                 print(elmt)
                 
