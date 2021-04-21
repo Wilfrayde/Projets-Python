@@ -2,15 +2,16 @@ liste_course = []
 choix_user = 0
 
 while choix_user != 5:
-    print("Menu :")
-    print("1. Ajouter un élément à la liste de courses")
-    print("2. Retirer un élément de la liste de courses")
-    print("3. Afficher lbes éléments de la liste de courses")
-    print("4. Vider la liste de courses")
-    print("5. Quitter le programme")
-    choix_user = int(input(""))
-
     try:
+        print("Menu :")
+        print("1. Ajouter un élément à la liste de courses")
+        print("2. Retirer un élément de la liste de courses")
+        print("3. Afficher lbes éléments de la liste de courses")
+        print("4. Vider la liste de courses")
+        print("5. Quitter le programme")
+        choix_user = int(input(""))
+
+    
         # Ajouter un élément à la liste de course
         if choix_user == 1:
             add_element = input("Noter l'élément à ajouter : ")
