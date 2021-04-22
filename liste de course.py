@@ -12,7 +12,6 @@ while choix_user != 5:
     try:
         choix_user = int(input(""))
 
-    
         # Ajouter un élément à la liste de course
         if choix_user == 1:
             add_element = input("Noter l'élément à ajouter : ")
